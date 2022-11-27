@@ -13,7 +13,7 @@ public class Control {
 
     public Control(Resources res, int id) {
         bitmap= BitmapFactory.decodeResource(res,id);
-        bitmap=Bitmap.createScaledBitmap(bitmap,bitmap.getWidth()/2,bitmap.getHeight()/2,false);
+        bitmap=Bitmap.createScaledBitmap(bitmap,bitmap.getWidth()/4,bitmap.getHeight()/4,false);
     }
 
     public Rect getRect() {

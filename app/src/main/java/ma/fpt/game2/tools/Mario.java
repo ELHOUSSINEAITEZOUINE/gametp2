@@ -31,9 +31,9 @@ public class Mario {
         y=0;
 
 
-        mario_stop=Bitmap.createScaledBitmap(mario_stop,mario_stop.getWidth()/4,mario_stop.getHeight()/4,false);
-        mario_marche=Bitmap.createScaledBitmap(mario_marche,mario_marche.getWidth()/4,mario_marche.getHeight()/4,false);
-        mario_jump=Bitmap.createScaledBitmap(mario_jump,mario_jump.getWidth()/4,mario_jump.getHeight()/4,false);
+        mario_stop=Bitmap.createScaledBitmap(mario_stop,mario_stop.getWidth()/6,mario_stop.getHeight()/6,false);
+        mario_marche=Bitmap.createScaledBitmap(mario_marche,mario_marche.getWidth()/6,mario_marche.getHeight()/6,false);
+        mario_jump=Bitmap.createScaledBitmap(mario_jump,mario_jump.getWidth()/6,mario_jump.getHeight()/6,false);
 
         //par défaut, Mario est orienté à gauche, alors on change vers le droit
         flipMario();
